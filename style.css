@@ -258,11 +258,14 @@ form input{
 .end-game-lost h3{
     margin: 30px;
 }
-.hp div span{
+.hp div{
     margin: 10px;
     display: block;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.hp div p{
+    margin-bottom: 10px;
 }
 .end-game-won h3{
     margin: 20px;
