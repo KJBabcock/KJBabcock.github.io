@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer ></script>
+  </head>
+  <body>
+    <div class = 'container'>
+        <div class = 'menu-screen'>
+	    <div class = 'menu-title'>
+            <h1>Prison-Breaker</h1>
+        </div>
+        <div class = 'menu-picture'>
+            <h2><img src='https://preview.redd.it/oyfej7471p381.png?width=640&crop=smart&auto=webp&s=bea695d096585f374956b9ded00d7a7322578604' width="500" height="400"></img></h2>
+        </div>
+        <div class = 'menu-subtitle'>
+            <h3>Let's get outta here!</h3>
+        </div>
+        <div class = 'menu-name-box'>
+            <form><br>
+                <p>Prisoner Name:</p>
+            <input type = 'text' id = 'name'><br>
+            <button class= 'start-button'>Start</button>
+            </form>
+        </div>
+        </div>
+        <div class = 'game'>
+        <div class = 'name-area'>
+            <h2>Welcome to the block</h2>
+            <h1 class = 'name'></h1>
+            <h2>Good luck...</h2>
+        </div>
+        <div class="hp">
+            <p>Health <span class ="health-hp">10</span></p>
+            <p>Fitness <span class ="fitness-hp">10</span></p>
+            <p>Intelligence <span class ="intelligence-hp">10</span></p>
+            <p>Mood <span class ="mood-hp">10</span></p>
+            <p>Reputation <span class ="reputation-hp">10</span></p>
+            <p>Cash <span class ="cash-hp">0</span></p>
+            <p>Snacks <span class ="snacks-hp">0</span></p>
+        </div>
+        <div class = 'attempt-escape'>
+            <button class = 'attemptEscape'>Attempt Escape</button>
+        </div>
+        <div>
+            <ul class = 'game-buttons'>
+                <li><button class = 'buySnack' onclick = 'escape()'>Buy Snack</button></li>
+                <li><button class = 'giveSnack' onclick = 'escape()'>Give Snack</button></li>
+                <li><button class = 'eat' onclick = 'escape()'>Go to the Commissary</button></li>
+                <li><button class = 'yard' onclick = 'escape()'>Go to the Yard</button></li>
+                <li><button class = 'work' onclick = 'escape()'>Go to Work</button></li>
+                <li><button class = 'workOut' onclick = 'escape()'>Work Out</button></li>
+                <li><button class = 'study' onclick = 'escape()'>Study</button></li>
+            </ul> 
+        </div>
+        </div>
+        <div class = 'end-game-won'>
+        <h3>Great Job,</h3>
+        <h1 class = 'name2'></h1>
+        <h3>You Sucessfully Escaped!</h3>
+        <button class = 'tryAgain1' onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'end-game-lost'>
+        <h2>Attempt Falied</h2>
+        <h1 class = 'name5'></h1>
+        <h3>Looks like you weren't cut out for this after all.</h3>
+        <button class = 'tryAgain2' onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'debt'>
+        <h1 class = 'name4'></h1>
+        <h1>Your debts have caught up to you...</h1>
+        <button class = 'tryAgain3' onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'health0'>
+            <h1>You've died of Malnutrition,</h1>
+            <h1 class = 'name3'></h1>
+            <h1>Prison is brutal.</h1>
+            <button class = tryAgain4 onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'fitness0'>
+            <h1>It's the survival of the fittest,</h1>
+            <h1 class = 'name6'></h1>
+            <h1>Prison is brutal.</h1>
+            <button class = tryAgain4 onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'intelligence0'>
+            <h1>A sharp mind is necessary for survival,</h1>
+            <h1 class = 'name7'></h1>
+            <h1>Prison is brutal.</h1>
+            <button class = tryAgain4 onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'mood0'>
+            <h1>A sad person can't plan escape,</h1>
+            <h1 class = 'name8'></h1>
+            <h1>Prison is brutal.</h1>
+            <button class = tryAgain4 onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+        <div class = 'reputation0'>
+            <h1>You need respect to survive a place like this,</h1>
+            <h1 class = 'name9'></h1>
+            <h1>Prison is brutal.</h1>
+            <button class = tryAgain4 onclick = 'window.location.reload();'>Try Again</button>
+        </div>
+    </div>
+</body>
+</html>

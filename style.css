@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+.menu-screen {
+    text-align: center;
+}
+.menu-title {
+text-align: center;
+color: antiquewhite;
+float: center;
+font-family: 'Silkscreen', sans-serif;
+font-size: 60px;
+}
+.menu-picture {
+    margin-top: -30px;
+    opacity: 0.9;
+    margin-bottom: 50px;
+}
+.menu-subtitle {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 10px;
+}
+.start-button {
+    font-size: 50px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Silkscreen', sans-serif;
+    background-color: antiquewhite;
+}
+.menu-name-box {
+    color: antiquewhite;
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+.game {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 40px;
+}
+.name-area h2{
+    margin: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 50px;
+}
+.name {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 120px;
+    color: rgb(78, 68, 228);
+}
+.name2 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: gold;
+    margin-bottom: 50px;
+}
+.name3 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(203, 29, 29);
+}
+.name4 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(65, 182, 15);
+}
+.name5 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(162, 157, 171);
+}
+.name6 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(203, 29, 29);
+}
+.name7 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(203, 29, 29);
+}
+.name8 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(203, 29, 29);
+}
+.name9 {
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 100px;
+    color: rgb(203, 29, 29);
+}
+.health0 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.fitness0 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.intelligence0 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.mood0 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.reputation0 {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.game-buttons li{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+}
+.buySnack {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.giveSnack {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.eat {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.yard {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.work {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.workOut {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.study {
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.hp {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    display: inline-flex;
+}
+.end-game-won {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.end-game-won h3{
+    margin: 50px;
+}
+.end-game-lost {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 100px;
+}
+.debt {
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.tryAgain1 {
+    font-size: 40px;
+    font-family: 'Silkscreen', sans-serif;
+    margin: 100px;
+    position: absolute;
+    left: 37%;
+}
+.tryAgain2 {
+    font-size: 40px;
+    font-family: 'Silkscreen', sans-serif;
+    margin: 100px;
+    position: absolute;
+    left: 37%;
+}
+.tryAgain3 {
+    font-size: 40px;
+    font-family: 'Silkscreen', sans-serif;
+    margin: 100px;
+    position: absolute;
+    left: 37%;
+}
+.tryAgain4 {
+    font-size: 40px;
+    font-family: 'Silkscreen', sans-serif;
+    margin: 100px;
+    position: absolute;
+    left: 37%;
+}
+.killed h3{
+    margin: 30px;
+}
+.debt h1{
+    margin: 30px;
+}
+form input{
+    margin: 30px;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 300px;
+    font-size: 40px;
+    font-family: 'Silkscreen', sans-serif;
+    text-align: center;
+}
+.attemptEscape {
+    margin: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Silkscreen', sans-serif;
+}
+.end-game-lost h3{
+    margin: 30px;
+}
+.hp p{
+    margin: 60px;
+    margin-top: 100px;
+}
+.end-game-won h3{
+    margin: 20px;
+}
