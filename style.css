@@ -137,7 +137,6 @@ font-size: 60px;
     margin-left: 20px;
     margin-right: 20px;
     background-color: antiquewhite;
-    text-align: center;
     text-decoration: none;
     display: inline-flex;
 }
@@ -171,9 +170,11 @@ font-size: 60px;
 }
 .hp {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .end-game-won {
     color: antiquewhite;
@@ -204,28 +205,32 @@ font-size: 60px;
     font-family: 'Silkscreen', sans-serif;
     margin: 100px;
     position: absolute;
-    left: 37%;
+    left: 42%;
+    transform: translateX(-45%);
 }
 .tryAgain2 {
     font-size: 40px;
     font-family: 'Silkscreen', sans-serif;
     margin: 100px;
     position: absolute;
-    left: 37%;
+    left: 42%;
+    transform: translateX(-45%);
 }
 .tryAgain3 {
     font-size: 40px;
     font-family: 'Silkscreen', sans-serif;
     margin: 100px;
     position: absolute;
-    left: 37%;
+    left: 42%;
+    transform: translateX(-45%);
 }
 .tryAgain4 {
     font-size: 40px;
     font-family: 'Silkscreen', sans-serif;
     margin: 100px;
     position: absolute;
-    left: 37%;
+    left: 42%;
+    transform: translateX(-45%);
 }
 .killed h3{
     margin: 30px;
@@ -253,9 +258,11 @@ form input{
 .end-game-lost h3{
     margin: 30px;
 }
-.hp p{
-    margin: 60px;
-    margin-top: 100px;
+.hp div span{
+    margin: 10px;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .end-game-won h3{
     margin: 20px;

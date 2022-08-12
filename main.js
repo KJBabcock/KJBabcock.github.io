@@ -25,11 +25,11 @@ document.querySelector('.intelligence0').style.display = 'none';
 document.querySelector('.mood0').style.display = 'none';
 document.querySelector('.reputation0').style.display = 'none';
 
-let health = 10;
-let fitness = 10;
-let intelligence = 10;
-let mood = 10;
-let reputation = 10;
+let health = 20;
+let fitness = 20;
+let intelligence = 20;
+let mood = 20;
+let reputation = 20;
 let cash = 0;
 let snacks = 0;
 let clicks = 0;
@@ -52,7 +52,7 @@ function startGame(e) {
     setName.innerHTML = myName
     document.querySelector('.menu-screen').style.display = 'none';
     document.querySelector('.game').style.display = 'inline';
-    startTimer = setInterval(timer, 5000);
+    startTimer = setInterval(timer, 7000);
 }
 function escape() {
     clicks += 1;
