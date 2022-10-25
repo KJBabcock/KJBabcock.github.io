@@ -103,6 +103,7 @@ function timer() {
         document.querySelector('.reputation0').style.display = 'inline';
         clearInterval(startTimer);
     }
+
     health -= 1
     healthHp.innerHTML = `${health}`
     fitness -= 1
